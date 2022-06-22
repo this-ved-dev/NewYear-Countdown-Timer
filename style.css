@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@font-face {
+  font-family: "VerlagBlack";
+  src: url("Verlag\ Black.otf");
+}
+body {
+  font-family: VerlagBlack;
+  background-image: url("https://images.hdqwalls.com/download/evening-landscape-minimal-4k-kl-1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+.back-drop {
+  font-family: "Bebas Neue", cursive;
+  z-index: -1;
+  font-size: 800px;
+  opacity: 0.25;
+  position: relative;
+  top: 150px;
+}
+.year {
+  position: relative;
+  bottom: 650px;
+  z-index: 1;
+}
+h1 {
+  font-style: italic;
+  font-size: 80px;
+  background-color: rgb(106, 143, 188);
+  background-image: linear-gradient(
+    149deg,
+    rgba(13, 18, 38, 1) 0%,
+    rgba(106, 144, 191, 1) 69%,
+    rgba(254, 224, 224, 1) 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px whitesmoke;
+}
+.countdown {
+  font-style: italic;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #2d2d52;
+}
+.time h2 {
+  margin: 0 40px;
+}
+small {
+  color: whitesmoke;
+}
